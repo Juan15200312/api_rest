@@ -18,7 +18,7 @@ DEBUG = config('DEBUG', default=False, cast=bool)
 if DEBUG:
     ALLOWED_HOSTS = ['*']
 else:
-    ALLOWED_HOSTS = ['8.8.8.8']
+    ALLOWED_HOSTS = ['86.127.224.233', 'localhost', '127.0.0.1', '192.168.1.231']
 
 # Application definition
 
