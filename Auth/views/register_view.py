@@ -3,7 +3,7 @@ from rest_framework import status
 from rest_framework.generics import GenericAPIView
 from rest_framework.permissions import AllowAny
 from rest_framework.response import Response
-from Users.serializers import UserSerializer, UserSerializerEmail
+from Users.serializers import UserSerializer
 from services import send_email
 
 

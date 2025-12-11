@@ -33,7 +33,7 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt',
     'rest_framework_simplejwt.token_blacklist',
     'Users',
-
+    'Auth',
 ]
 
 REST_FRAMEWORK = {
@@ -138,4 +138,5 @@ DEFAULT_FROM_EMAIL = config('DEFAULT_FROM_EMAIL')
 
 TEMPLATES_EMAIL = {
     'welcome': config('TEMPLATE_WELCOME'),
+    'reset_password': config('TEMPLATE_RESET_PASSWORD'),
 }
